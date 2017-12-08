@@ -1,0 +1,26 @@
+.zf-radio{
+	.el-radio__input.is-checked .el-radio__inner{
+		border-color: #888888;
+		background-color: transparent;
+	}
+	
+	.el-radio__inner{
+		width: 16px;
+		height: 16px;
+	}
+
+	.el-radio__inner::after{
+		background-color: #000;
+		width: 8px;
+		height: 8px;
+	}
+	
+	.el-radio__label{
+		color: #767676;
+		font-size: 12px;
+	}
+
+	.el-radio__input.is-checked+.el-radio__label{
+		color: #000;
+	}
+}
