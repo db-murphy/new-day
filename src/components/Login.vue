@@ -51,7 +51,7 @@ export default {
 
             $.ajax({
 	            type : "post",
-	            url : 'http://localhost:3800/login',
+	            url : '/login',
 	            data : {
                     userName: _this.loginForm.name
 	            },

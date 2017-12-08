@@ -18,7 +18,7 @@ const ACTIONS = {
 	getUserData ({ commit, state }, userData) {
 		$.ajax({
             type : "get",
-            url : 'http://localhost:3800/users',
+            url : '/users',
             data : {
 
             },

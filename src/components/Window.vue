@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="bq-wrap">
-                <h2 class="enter-title pb10">在线的伙伴们:</h2>
+                <h2 class="enter-title pb10">在线的小伙伴们:</h2>
                 <ul>
                     <li v-for="(item, index) in getUserData" :key="index" v-if="item.isLogin">
                         <el-tooltip class="item" :value="showMsg" :manual="true" effect="dark" content="Top Left 提示文字" placement="top">
@@ -129,7 +129,7 @@ export default {
             // this.exportShow = true;
             $.ajax({
 	            type : "get",
-	            url : 'http://localhost:3800/getDataList',
+	            url : '/getDataList',
 	            data : {
 
 	            },

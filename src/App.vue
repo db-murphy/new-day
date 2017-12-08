@@ -16,7 +16,7 @@ export default {
     mounted() {
         var _this = this;
 
-        window.socketObj = require('socket.io-client')('http://localhost:3800');
+        window.socketObj = require('socket.io-client')('//172.24.188.130:3800/');
 
         // 建立socket连接
         window.socketObj.on('connect', function(a, b, c){
